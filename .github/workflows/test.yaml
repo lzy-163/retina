@@ -35,3 +35,4 @@ jobs:
         with:
           name: coverage-files
           path: ./coverage*
+          if-no-files-found: warn

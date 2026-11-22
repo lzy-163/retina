@@ -69,6 +69,7 @@ jobs:
         with:
           name: iptable-ipset-snapshot
           path: ./test/integration/plugin-simulations/npm-iptables
+
       - name: Cleanup
         if: always()
         run: make kind-clean
